@@ -2,7 +2,7 @@
 Wallet and daemon for Hanacoin [HANA] cryptocurrency on docker
 
 # Quickstart
-Type `docker run -it -e "USER=someuser" -e "PASSWORD=topsecret" -e "RPCALLOW=127.0.0.1" chainmapper/hanacoin` and see the wallet starting.
+Type `docker run -it -e "USER=secrettop" -e "PASSWORD=topsecret" -e "RPCALLOW=127.0.0.1" chainmapper/hanacoin` and see the wallet starting.
 
 Alternatively type `docker run -it -v "<path_to_config>:/config/hanacoin.conf" chainmapper/hanacoin` to use your own config.
 
